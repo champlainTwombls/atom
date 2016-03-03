@@ -43,6 +43,7 @@ class PackageManager
       if @devMode
         @packageDirPaths.push(path.join(configDirPath, "dev", "packages"))
       @packageDirPaths.push(path.join(configDirPath, "packages"))
+      @packageDirPaths.push(path.join(configDirPath, "git-packages"))
 
     @packagesCache = require('../package.json')?._atomPackages ? {}
     @loadedPackages = {}
