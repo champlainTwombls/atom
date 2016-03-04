@@ -1,5 +1,7 @@
 #!/bin/bash
 
+echo 'this is the modified verion of atom'
+
 if [ "$(uname)" == 'Darwin' ]; then
   OS='Mac'
 elif [ "$(expr substr $(uname -s) 1 5)" == 'Linux' ]; then

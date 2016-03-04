@@ -18,6 +18,7 @@
       { label: 'Clos&e Window', command: 'window:close' }
       { type: 'separator' }
       { label: 'Quit', command: 'application:quit' }
+      { label: 'Mylabel', command: 'application:quit' }
     ]
   }
 
